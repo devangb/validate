@@ -6,7 +6,7 @@ const program = require('commander'),
 
 
 let validateNum = (number,option) => {
-  var access_key = ;//
+  var access_key = '5897967950821a17fbff92b7cc531bb9';
   var validUrl = 'http://apilayer.net/api/validate' + '?access_key=' + access_key + '&number=' + number;
   request(validUrl, function(error,response,body){
      response = JSON.parse(body);
